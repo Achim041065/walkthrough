@@ -6,6 +6,13 @@
 
 GitHub Repository: (https://github.com/Achim041065/walkthrough.git)
 
+Start Chrome in VSC console: 
+```code
+Start-Process "chrome" "http://localhost:8080/index.html"
+```
+```code
+Start-Process "msedge" "http://localhost:8080/index.html"
+```
 
 ## 🛠️ Initialisierung in VSCode
 ```bash
