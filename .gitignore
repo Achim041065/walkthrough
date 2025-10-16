@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# UI5 tooling
+ui5-explorer/
+
+# Logs
+npm-debug.log*
+.yarn-integrity
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Build output
+dist/
