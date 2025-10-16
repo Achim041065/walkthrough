@@ -1,12 +1,16 @@
 [GitHub-Link zu Youtube:(https://github.com/brandoncaulfield/sap-ui5-walkthrough/commits/main?before=26f804cea86ce1fd92e22d9f287fec7f273ca46f+35&branch=main)]
 
+## 📦 Repository
+https://github.com/Achim041065/walkthrough.git
+
+[Repository](https://github.com/Achim041065/walkthrough.git)
+
+
 ## 🛠️ Initialisierung in VSCode
 ```bash
 git init
 git remote add origin https://github.com/Achim041065/walkthrough.git
 git branch -M main && git push -u origin main
-
-Repository: https://github.com/Achim041065/walkthrough.git
 
 ================================================================================================================================
 PS C:\UI5\SAP-UI5-WALKTHROUGH> git init
@@ -49,3 +53,48 @@ To https://github.com/Achim041065/walkthrough.git
  * [new branch]      main -> main
 
 ================================================================================================================================
+
+```
+
+# Überschrift im Codeblock
+[Repository](https://github.com/Achim041065/walkthrough.git)
+
+## Projektstruktur
+```Code
+walkthrough/
+├─ .gitignore
+├─ package.json
+├─ ui5.yaml
+├─ README.md
+└─ webapp/
+   ├─ index.html
+   ├─ index.js
+   ├─ manifest.json
+   ├─ Component.js
+   ├─ controller/
+   │  └─ App.controller.js
+   ├─ view/
+   │  └─ App.view.xml
+   ├─ model/
+   │  └─ models.js
+   ├─ i18n/
+   │  └─ i18n.properties
+   ├─ css/
+   │  └─ style.css
+   └─ images/
+      └─ logo.png
+
+```
+
+Als Markdown:
+
+## Projektstruktur
+
+### webapp/ 
+  - controller/ → Controller-Logik
+  - view/ → XML/JS Views
+  - model/ → Modelle und Mock-Daten
+  - i18n/ → Übersetzungen
+  - css/, images/ → Assets
+- ui5.yaml → UI5 Build-Konfiguration
+- package.json → npm-Skripte und Abhängigkeiten
