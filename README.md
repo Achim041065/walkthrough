@@ -1,9 +1,10 @@
-[GitHub-Link zu Youtube:(https://github.com/brandoncaulfield/sap-ui5-walkthrough/commits/main?before=26f804cea86ce1fd92e22d9f287fec7f273ca46f+35&branch=main)]
 
-## 📦 Repository
-https://github.com/Achim041065/walkthrough.git
+## 📦 Repositories
+[Youtube Video UI5 zum Lernen](https://www.youtube.com/watch?v=C9cK2Z2JDLg)
 
-[Repository](https://github.com/Achim041065/walkthrough.git)
+[GitHub Repositories fürs den Kurs](https://github.com/brandoncaulfield/sap-ui5-walkthrough/commits/main?before=26f804cea86ce1fd92e22d9f287fec7f273ca46f+35&branch=main)
+
+GitHub Repository: (https://github.com/Achim041065/walkthrough.git)
 
 
 ## 🛠️ Initialisierung in VSCode
