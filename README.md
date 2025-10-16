@@ -1,6 +1,7 @@
-YouTube: https://github.com/brandoncaulfield/sap-ui5-walkthrough/commits/main?before=26f804cea86ce1fd92e22d9f287fec7f273ca46f+35&branch=main
+[GitHub-Link zu Youtube:(https://github.com/brandoncaulfield/sap-ui5-walkthrough/commits/main?before=26f804cea86ce1fd92e22d9f287fec7f273ca46f+35&branch=main)]
 
-Inti done in VSCode:
+## 🛠️ Initialisierung in VSCode
+```bash
 git init
 git remote add origin https://github.com/Achim041065/walkthrough.git
 git branch -M main && git push -u origin main
