@@ -16,7 +16,7 @@ sap.ui.define(
       },
       _neueMethode: function () {
         // Neue Methode
-        return "\nEigene Methode\n========Achim============";
+        return "\nEigene Methode\n====================";
       }
     });
   }
