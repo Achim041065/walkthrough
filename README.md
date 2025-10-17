@@ -14,6 +14,9 @@ Start-Process "chrome" "http://localhost:8080/index.html"
 Start-Process "msedge" "http://localhost:8080/index.html"
 ```
 
+</br>
+</br>
+
 ## 🛠️ Initialisierung in VSCode
 ```bash
 git init
