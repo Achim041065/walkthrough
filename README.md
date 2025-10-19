@@ -1,9 +1,7 @@
 
 ## 📦 Repositories
 [Youtube Video UI5 zum Lernen](https://www.youtube.com/watch?v=C9cK2Z2JDLg)
-
 [GitHub Repositories fürs den Kurs](https://github.com/brandoncaulfield/sap-ui5-walkthrough/commits/main?before=26f804cea86ce1fd92e22d9f287fec7f273ca46f+35&branch=main)
-
 GitHub Repository: (https://github.com/Achim041065/walkthrough.git)
 
 Start Chrome in VSC console: 
@@ -14,9 +12,50 @@ Start-Process "chrome" "http://localhost:8080/index.html"
 Start-Process "msedge" "http://localhost:8080/index.html"
 ```
 
-</br>
-</br>
+## GIT
+Git Konfiguration anzeigen:
 
+```code
+git config --list --show-origin
+```
+
+User-Name hinterlegen, unter dem Änderungen gespeichert werden
+```code
+git config --global user.name "John Doe"
+```
+
+EMail-Adresse hinterlegen:
+```code
+git config --global user.email johndoe@example.com
+```
+
+Um Hilfe zu einem Befehl zu bekommen, einfach "-h" anfügen, z.B.:
+```code
+git init -h
+```
+Um ein Projekt auf den lokalen Rechner zu kopieren (clonen):
+`git clone https://github.com/...`
+Beispiel:
+```code
+git clone https://github.com/Achim041065/walkthrough.git
+```
+
+</br></br>
+
+## Ein paar Worte zum lokalen GIT → [Link zur Erklärung im Buch](https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F)
+- Modified bedeutet, dass eine Datei geändert, aber noch **nicht** in die lokale Datenbank eingecheckt wurde.
+- Staged bedeutet, dass eine geänderte Datei in ihrem gegenwärtigen Zustand für den nächsten Commit vorgemerkt ist.
+- Committed bedeutet, dass die Daten sicher in der lokalen Datenbank gespeichert sind.
+
+Der grundlegende Git-Arbeitsablauf sieht in etwa so aus:
+- Du änderst Dateien in deinem Verzeichnisbaum.
+- Du stellst selektiv Änderungen bereit, die du bei deinem nächsten Commit berücksichtigen möchtest, wodurch nur diese Änderungen in den Staging-Bereich aufgenommen werden.
+- Du führst einen Commit aus, der die Dateien so übernimmt, wie sie sich in der Staging-Area befinden und diesen Snapshot dauerhaft in deinem Git-Verzeichnis speichert.
+
+</br></br>
+[Schritte, um Git zu konfigurieren](https://git-scm.com/book/de/v2/Erste-Schritte-Git-Basis-Konfiguration)
+
+</br></br>
 ## 🛠️ Initialisierung in VSCode
 ```bash
 git init
