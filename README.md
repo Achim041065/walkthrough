@@ -13,8 +13,16 @@ Start-Process "chrome" "http://localhost:8080/index.html"
 ```code
 Start-Process "msedge" "http://localhost:8080/index.html"
 ```
+## GIT Befehle
 
-## 🛠️ Initialisierung in VSCode
+Welche Dateien wurden verändert: 
+```code 
+git status
+```
+[Link zur Syntax zn Dateien zu ignorieren - wird in gitignore geschrieben](https://github.com/github/gitignore)
+
+
+## 🛠️ GIT Initialisierung in VSCode
 ```bash
 git init
 git remote add origin https://github.com/Achim041065/walkthrough.git
