@@ -3,15 +3,23 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
 >
-    <Button
-        text="{i18n>showHelloButtonText}"
-        press="onClickMeButtonPress"
-        icon="sap-icon://accept"
-    />
-    <Input
-        value = "{/recipient/name}"
-        description = "Hello -{/recipient/name}-"
-        valueLiveUpdate = "true"
-        width = "60%" 
-    />
+
+ <IconTabBar>
+     <items>
+        <IconTabFilter text="{i18n>registerText}" icon="sap-icon://home">
+            <Button
+                text="Druckknopf"
+                press="onClickMeButtonPress"
+                icon="sap-icon://accept"
+            />
+            <Input
+                value = "{/recipient/name}"
+                description = "Hello -{/recipient/name}-"
+                valueLiveUpdate = "true"
+                width = "60%" 
+            />
+        </IconTabFilter>
+    </items>
+</IconTabBar>
+
  </mvc:View>
